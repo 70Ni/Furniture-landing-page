@@ -1,38 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap");
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.font {
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Header1 {
+  font-size: 64px;
+  font-weight: 600;
+  /* semibold */
+}
+.para {
+  font-size: 20px;
+  font-weight: 400;
+  /* regular */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Button {
+  font-size: 20px;
+  font-weight: 600;
+    /* semibold */
+
+}
+.listext {
+  font-size: 24px;
+  font-weight: 600;
+    /* semibold */
+}
+.pricing {
+  font-size: 14px;
+  font-weight: 300;
+    /* light */
+}
+.Navigation {
+  font-size: 16px;
+  font-weight: 400;
+    /* regular */
 }
 
-.App-link {
-  color: #61dafb;
+.subHeader {
+  font-size: 40px;
+  font-weight: 600;
+    /* semibold */
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.subHeader {
+  font-size: 18px;
+  font-weight: 500;
+    /* Medium */
 }
