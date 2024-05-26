@@ -1,0 +1,30 @@
+.maxcontainer {
+  max-width: 1440px;
+}
+.wrapper {
+  display: flex;
+  margin: 72px 100px;
+}
+.baseHeader {
+  margin-bottom: 20px;
+}
+.decImg {
+  width: auto;
+  height: 440px;
+  min-width: 554px;
+  margin-right: 100px;
+  border-radius: 14px;
+}
+.point-headers {
+  display: flex;
+  align-items: center;
+}
+.check-icon {
+  margin-right: 14px;
+}
+.point-wrapper {
+  margin: 32px 0px;
+}
+.point-para {
+    margin-left: 46px;
+}
