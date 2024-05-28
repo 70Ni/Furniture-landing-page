@@ -1,0 +1,26 @@
+.navigation-wrapper {
+  position: absolute;
+  top: 0px;
+  z-index: 4;
+}
+.nav-item {
+  padding: 14px 20px;
+}
+.Logo {
+  padding: 14px;
+}
+.nav-items {
+  display: flex;
+}
+.navigation-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  padding: 14px 0px;
+}
+.Navigation-outer {
+  display: flex;
+  justify-content: center;
+}
