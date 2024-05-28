@@ -1,0 +1,65 @@
+.introHeader {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.intro-para {
+  text-align: center;
+  margin-bottom: 50px;
+  color: white;
+  max-width: 620px;
+}
+.intro-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  max-width: 880px;
+  margin: 20px 40px;
+  width: 100vw;
+}
+.outer-intro {
+  width: 100%;
+}
+.intro-wrapper {
+  background-image: url("../../Images/living-room.png");
+  width: 100%;
+  /* width: 100vw; */
+  background-size: cover;
+  height: 800px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  box-sizing: border-box;
+}
+.feature-sectionA {
+  display: flex;
+}
+.feature-section {
+  padding: 0px 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.features-wrapper {
+  padding: 35px 110px;
+  border-radius: 20px;
+  background-color: #286f6c;
+  margin: 0px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: -20px;
+}
+#border-right {
+  border-right: 1.5px solid #fff;
+}
+.feaure-para {
+  max-width: 100px;
+  text-align: center;
+  margin-top: 5px;
+}
