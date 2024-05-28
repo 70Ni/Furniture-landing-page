@@ -1,0 +1,33 @@
+.footer-outer {
+  width: 100%;
+}
+
+.footer-wrapper {
+  background-color: #23262f;
+  padding: 70px 100px 18px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.footer-head-section {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.531);
+  padding-bottom: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+.social-icon {
+  margin: 12px;
+}
+.footer-text {
+  padding: 10px 0px;
+}
+.footer-contnet {
+  margin: 50px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-Header {
+  padding-bottom: 24px;
+}
+.footer-copyright {
+  text-align: center;
+}
