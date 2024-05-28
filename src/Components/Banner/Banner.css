@@ -1,0 +1,51 @@
+.banner-wrapper {
+  width: 100%;
+  background-image: url(../../Images/Banner.png);
+  height: 500px;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.banner-content {
+  max-width: 558px;
+  float: right;
+  margin: 0px 120px;
+}
+.white {
+  color: white;
+}
+.subscription-section {
+  display: flex;
+  margin-top: 40px;
+}
+.banner-header {
+  max-width: 350px;
+  margin-bottom: 20px;
+}
+.input-style {
+  padding: 14px 32px;
+  border-radius: 8px;
+}
+
+input[type="text"] {
+  border-radius: 8px;
+  border: none;
+  padding: 0px 20px;
+  width: 100%;
+  font-size: 14px;
+  color: #585981;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+.button {
+  padding: 20px 30px;
+  background-color: #23262f;
+  border-radius: 8px;
+  margin-left: 20px;
+  color: white;
+  width: fit-content;
+}
