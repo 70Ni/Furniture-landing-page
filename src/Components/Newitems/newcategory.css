@@ -1,0 +1,39 @@
+.newcaImg {
+  height: 400px;
+  width: 250px;
+  border-radius: 8px;
+  filter: brightness(80%);
+}
+.new-category-section {
+  max-width: 300px;
+}
+.new-categ-hero {
+  margin-top: 80px;
+}
+.newcatImag {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.newcatext {
+  position: absolute;
+  margin: 0 auto;
+  bottom: 18px;
+  color: white;
+}
+
+.newca-header {
+  margin-bottom: 80px;
+}
+
+.newca-para {
+  margin-bottom: 48px;
+}
+.new-category-card {
+  margin: 10px;
+}
+.new-card-section-wraper {
+  overflow: visible;
+  display: flex;
+}
