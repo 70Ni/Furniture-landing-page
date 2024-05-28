@@ -3,6 +3,7 @@ import "./base.css";
 
 import sofa from "../../Images/sofa.png";
 import check from "../../Images/check.svg";
+import Review from "../Reviews/Review";
 
 function Base({ pos }) {
   return (
@@ -26,7 +27,7 @@ function Base({ pos }) {
             management system,
           </div>
           {/* point warpper section */}
-          <div className="point-wrapper">
+          {/* <div className="point-wrapper">
             <div className="point-headers">
               <img src={check} alt="" className="check-icon" />
               <div className="button-text point-text-header">
@@ -49,7 +50,8 @@ function Base({ pos }) {
               Sometimes features require a short description. This can be
               detailed description
             </div>
-          </div>
+          </div> */}
+          <Review />
         </div>
       </div>
     </div>
