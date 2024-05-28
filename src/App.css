@@ -1,9 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap");
-
 .App {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
-
+.new-categ-hero {
+  display: flex;
+}
 .font {
   font-family: "Saira", sans-serif;
   font-optical-sizing: auto;
@@ -18,38 +22,43 @@
 .para {
   font-size: 20px;
   font-weight: 400;
-  /* regular */
+  line-height: 30px;
+  color: #23262f; /* regular */
 }
 
-.Button {
+.button-text {
   font-size: 20px;
   font-weight: 600;
-    /* semibold */
-
+  /* semibold */
 }
 .listext {
   font-size: 24px;
   font-weight: 600;
-    /* semibold */
+  /* semibold */
 }
 .pricing {
   font-size: 14px;
   font-weight: 300;
-    /* light */
+  /* light */
 }
 .Navigation {
   font-size: 16px;
   font-weight: 400;
-    /* regular */
+  color: #23262f;
+  /* regular */
 }
 
 .subHeader {
   font-size: 40px;
   font-weight: 600;
-    /* semibold */
+  /* semibold */
 }
-.subHeader {
+.footerHeader {
   font-size: 18px;
   font-weight: 500;
-    /* Medium */
+  /* Medium */
 }
+.point-headers {
+  margin-bottom: 8px;
+}
+

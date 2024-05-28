@@ -1,0 +1,8 @@
+
+.maxcontaier {
+    max-width: 1400px;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
