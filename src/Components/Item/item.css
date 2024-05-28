@@ -1,36 +1,36 @@
 .imgwrapper {
-    height: 300px;
-    width: 290px;
-    border: 1px solid #10263728;
-    border-radius: 20px;
-    margin-bottom: 14px;
-    position: relative;
+  height: 300px;
+  width: 290px;
+  border: 1px solid #10263728;
+  border-radius: 20px;
+  margin-bottom: 14px;
+  position: relative;
 }
 
 .itemimage {
-    width: inherit;
-    height: inherit;
-    padding: 20px;
-    box-sizing: border-box;
-    border-radius: 20px;
+  width: inherit;
+  height: inherit;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 20px;
 }
 .item-container {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  margin: 12px;
 }
 .pricing-section {
-    display: flex;
-    padding: 8px 0px;
-    align-items: center;
+  display: flex;
+  padding: 8px 0px;
+  align-items: center;
 }
 .acutal-price {
-    text-decoration: line-through;
-    opacity: 0.4;
-    margin: 0px 18px;
+  text-decoration: line-through;
+  opacity: 0.4;
+  margin: 0px 18px;
 }
 .addIcon {
-    position: absolute;
-    right: 30px;
-    bottom: 30px;
-    
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
 }
