@@ -12,7 +12,6 @@
   width: auto;
   height: 440px;
   min-width: 554px;
-  margin-right: 100px;
   border-radius: 14px;
 }
 .point-headers {
@@ -29,3 +28,33 @@
   margin-left: 46px;
 }
 
+@media only screen and (max-width: 1200px) {
+  .wrapper {
+    margin: 50px 40px;
+  }
+}
+@media only screen and (max-width: 998px) {
+  .wrapper {
+    flex-direction: column !important;
+  }
+  .decImg {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 40px;
+    width: 100%;
+    min-width: auto;
+    object-fit: cover;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .wrapper {
+    margin: 50px 20px;
+  }
+  .decImg {
+    height: 320px;
+  }
+  .review-controller-wrapper {
+    width: 100% !important;
+    transition: 0.8s ease-out;
+  }
+}
