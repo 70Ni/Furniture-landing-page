@@ -28,10 +28,10 @@ function Intro() {
               <div className="subHeader white">2</div>
               <div className="para white feaure-para">
                 Opened in the country
-              </div>
+              </div>  
             </div>
           </div>
-          <div className="feature-sectionA">
+          <div className="feature-sectionB">
             <div className="feature-section" id="border-right">
               <div className="subHeader white">10k+</div>
               <div className="para white feaure-para">Furniture sold</div>
